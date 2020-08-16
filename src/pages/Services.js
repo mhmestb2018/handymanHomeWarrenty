@@ -15,8 +15,9 @@ import {
 export default class Services extends Component {
   render() {
     return (
-      <Container style={{ padding: '2rem 0 0 0' }}>
-        <Row>
+      <Container>
+        <h4 className='text-center'>Services by pro-handymen</h4>
+        <Row style={{ padding: '1rem 0 0 0' }}>
           <Col xs={6} sm={3} md={3} lg={3}>
             <div className='text-center'>
               <MdPower
@@ -53,7 +54,7 @@ export default class Services extends Component {
           </Col>
         </Row>
 
-        <Row style={{ padding: '2rem 0 0 0' }}>
+        <Row>
           <Col xs={6} sm={3} md={3} lg={3}>
             <div className='text-center'>
               <FaCut style={{ height: '2rem', width: '3rem', color: 'teal' }} />
@@ -90,7 +91,7 @@ export default class Services extends Component {
           </Col>
         </Row>
 
-        <Row style={{ padding: '2rem 0 0 0' }}>
+        <Row>
           <Col xs={6} sm={3} md={3} lg={3}>
             <div className='text-center'>
               <FaHandshake

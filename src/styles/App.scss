@@ -123,6 +123,7 @@ body {
 /*services*/
 .text-center {
   color: $primarybg;
+  padding: 1rem 0 1rem 0;
   &:hover {
     transition: 2s;
     transform: translateY(10px);
@@ -132,9 +133,10 @@ body {
 
 .quote {
   @include flexcenter();
-  padding-top: 4rem;
   .btn-outline-primary {
     border: transparent;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     background: $main;
     &:hover {
       border: 1px solid $main;
