@@ -4,6 +4,12 @@
 @import './navbar';
 @import './variables';
 
+@mixin flexcenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -103,9 +109,7 @@ body {
 .footer {
   background: $main;
   color: $textnav;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+  @include flexcenter();
   position: fixed;
   bottom: 0;
   height: 4vh;
@@ -127,8 +131,7 @@ body {
 }
 
 .quote {
-  align-items: center;
-  justify-content: center;
+  @include flexcenter();
   padding-top: 4rem;
   .btn-outline-primary {
     border: transparent;
@@ -141,4 +144,13 @@ body {
       color: $textnav;
     }
   }
+}
+/*error page*/
+.error {
+  @include flexcenter();
+  margin-top: 30vh;
+}
+.error-btn {
+  @include flexcenter();
+  margin-top: 10vh;
 }

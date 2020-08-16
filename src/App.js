@@ -8,6 +8,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Franchise from './pages/Franchise';
 import Location from './pages/Location';
+import Error from './pages/Error';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/contact' component={Contact}></Route>
         <Route exact path='/franchise' component={Franchise}></Route>
         <Route exact path='/location' component={Location}></Route>
+        <Route component={Error}></Route>
       </Switch>
       <Footer />
     </>
