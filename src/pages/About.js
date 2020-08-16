@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 export default class About extends Component {
   render() {
@@ -49,11 +50,9 @@ export default class About extends Component {
         </Row>
 
         <Row className='quote'>
-          <Col xs={12} sm={12} md={12} lg={12}>
-            <Button variant='outline-primary' size='lg'>
-              <Link to='/services'>Hire us</Link>
-            </Button>
-          </Col>
+          <Button variant='outline-primary' size='lg'>
+            <Link to='/services'>Hire us</Link>
+          </Button>
         </Row>
       </Container>
     );
