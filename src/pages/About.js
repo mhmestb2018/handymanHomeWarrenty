@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 export default class About extends Component {
   render() {
     return (
-      <Container className='about'>
+      <Container style={{ padding: '2rem 0 0 0' }}>
         <h4>How it all started</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum

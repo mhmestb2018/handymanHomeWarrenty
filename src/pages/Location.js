@@ -9,7 +9,7 @@ export default class Location extends Component {
   render() {
     return (
       <div>
-        <Container className='about'>
+        <Container style={{ padding: '2rem 0 0 0' }}>
           <h5>
             Covid Caution: All our physical offices are closed til further
             notice.

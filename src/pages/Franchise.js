@@ -6,7 +6,7 @@ export default class Franchise extends Component {
   render() {
     return (
       <div>
-        <Container className='about'>
+        <Container style={{ padding: '2rem 0 0 0' }}>
           <h5>
             Want to start an amazing new business... and team up with other
             like-minded entrepreneurs?
