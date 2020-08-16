@@ -47,6 +47,14 @@ export default class About extends Component {
             </p>
           </Col>
         </Row>
+
+        <Row className='quote'>
+          <Col xs={12} sm={12} md={12} lg={12}>
+            <Button variant='outline-primary' size='lg'>
+              <Link to='/services'>Hire us</Link>
+            </Button>
+          </Col>
+        </Row>
       </Container>
     );
   }
